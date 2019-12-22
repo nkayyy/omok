@@ -7,9 +7,17 @@ class Piece {
     int col;
 
     public:
-    Piece(std::type, int row, int col);
-    int getRow();
-    int getCol();
+    Piece(std::string type, int row, int col){
+        this -> type;
+        this -> row;
+        this -> getCol();
+    }
+    int getRow(){
+        return row;
+    }
+    int getCol(){
+        return col;
+    }
 
 };
 #endif
