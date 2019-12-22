@@ -8,7 +8,7 @@ class Box {
 
     public:
     Box();
-    Box(std::unique_ptr<Piece p> p);
+    Box(std::unique_ptr<Piece> p);
     void renderText();
 
 };
