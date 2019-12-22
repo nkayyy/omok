@@ -4,12 +4,12 @@
 
 class Box {
     bool hasPiece;
-    std::unique_ptr<Piece> *p;
+    std::unique_ptr<Piece> p;
 
     public:
     Box();
     Box(std::unique_ptr<Piece> p);
-    void renderText();
+    //void renderText();
 
 };
 
