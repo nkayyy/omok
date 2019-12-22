@@ -7,7 +7,6 @@ class Piece {
     int col;
 
     public:
-        this -> row;
     Piece(std::string type, int row, int col);
     int getRow();
     int getCol();
