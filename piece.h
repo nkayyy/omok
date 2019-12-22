@@ -10,7 +10,7 @@ class Piece {
     Piece(std::string type, int row, int col){
         this -> type;
         this -> row;
-        this -> getCol();
+        this -> col;
     }
     int getRow(){
         return row;
